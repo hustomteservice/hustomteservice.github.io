@@ -9,8 +9,9 @@
                 </div>
             </div>
             <div class="row">
-                <p>Kommer snart.</p>
-                <!-- {% for post in site.posts %}
+                <p style="text-align: center">Kommer snart.</p>
+                {% comment %}
+                {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -21,7 +22,8 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
-                {% endfor %} -->
+                {% endfor %}
+                {% endcomment %}
             </div>
         </div>
     </section>
