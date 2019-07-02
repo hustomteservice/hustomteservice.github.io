@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: kitchen.png
+img: kitchen.jpg
 alt: Köksrenovering
 project-date: April 2014
 client: Start Bootstrap
