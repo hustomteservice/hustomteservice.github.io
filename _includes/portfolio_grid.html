@@ -9,8 +9,6 @@
                 </div>
             </div>
             <div class="row">
-                <p style="text-align: center">Kommer snart.</p>
-                {% comment %}
                 {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
@@ -23,7 +21,6 @@
                         </a>
                     </div>
                 {% endfor %}
-                {% endcomment %}
             </div>
         </div>
     </section>
